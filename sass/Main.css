@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+@font-face {
+  font-family: "Avenir book";
+  src: url("./fonts/avenir-book.otf");
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.75rem;
+}
+nav .nav_links ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: center;
+}
+nav .nav_links ul li {
+  display: inline-block;
+  list-style: none;
+  color: #77c377;
+  font-size: 20px;
+  align-self: center;
+  font-family: "Avenir book";
+}
+nav button {
+  background-color: #c1a130;
+  color: #f8ebd7;
+  width: 100px;
+  height: 34px;
+  border-radius: 30px;
+  border-color: #c1a130;
+  font-family: "Avenir book";
+}
+nav .logo {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-top: 5.5rem;
+}
+.container .left {
+  width: 50%;
+  align-self: center;
+  margin-left: 3rem;
+}
+.container .left .Need_heading {
+  color: #f8ebd7;
+  font-size: 70px;
+  width: 227px;
+  height: 188px;
+  margin-left: 1rem;
+  position: relative;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+}
+.container .left .Afghanistan_heading {
+  color: #78c376;
+  font-size: 90px;
+  line-height: 121.41px;
+  width: 511px;
+  height: 121px;
+  margin-bottom: 20px;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+}
+.container .left p {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 35px;
+  width: 508px;
+  font-family: "Avenir book";
+  height: 105px;
+}
+.container .left button {
+  background-color: #f8ebd7;
+  width: 220px;
+  height: 54px;
+  border-radius: 30px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-family: "Avenir book";
+}
+.container .left .leftimg {
+  position: absolute;
+  bottom: 14%;
+  left: 78%;
+}
+.container .right {
+  width: 50%;
+  margin-right: 6rem;
+  position: relative;
+}
+.container .right .arrowimg {
+  position: absolute;
+  top: 15%;
+}/*# sourceMappingURL=Main.css.map */
